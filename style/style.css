@@ -27,7 +27,7 @@
     cursor: pointer;
     padding: 12px 36px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 18px;
 }
 
@@ -56,5 +56,38 @@ nav h1{
     font-weight: 800;
     font-size: 65px;
     padding: 130px 230px 40px;
+    color: #252432;
 }
-.header-description button{}
+
+/* Main styles */
+
+main{
+    background-color: #F5F8FF;
+}
+.main-content{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 120px 0px;
+}
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 220px;
+}
+.action img{
+    height: 330px;
+    width: 400px;
+    border-radius: 48px;
+}
+.action-description h1{
+    font-weight: 800;
+    font-size: 42px;
+    color: #252432;
+}
+.action-description p{
+    padding: 23px 0px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #9A9BA5;
+}
