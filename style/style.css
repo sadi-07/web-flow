@@ -29,6 +29,14 @@
     border: none;
     border-radius: 10px;
     font-size: 18px;
+    transition: transform 0.3s ease-in-out, 0.3s ease-in-out;
+}
+button:hover{
+    background-color: yellow;
+    color: #000000;
+    transform: scale(1.1);
+    
+    
 }
 
 /* Header Styles */
@@ -39,10 +47,12 @@ header{
     height: 650px;
 }
 nav{
+    margin: 0px auto;
+    width: 1140px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 150px;
+    padding: 50px 0px;
 }
 nav h1{
     font-weight: 800;
@@ -68,7 +78,7 @@ main{
 .main-content{
     max-width: 1140px;
     margin: 0px auto;
-    padding: 120px 0px;
+    padding-top: 120px;
 }
 .action{
     display: flex;
@@ -220,7 +230,7 @@ main{
 /* In-touch styles */
 
 .in-touch{
-    padding: 95px 0px 70px;
+    padding: 95px 0px 0px;
     display: flex;
     align-items: center;
 }
@@ -252,7 +262,7 @@ form input{
     border-radius: 10px;
 }
 form textarea{
-    padding: 20px 20px 20px 30px;
+    padding: 20px 17px 20px 30px;
     font-size: 21px;
     margin: 12px 0px;
     border: 1px groove #D6DDED;
@@ -262,4 +272,44 @@ form .button{
     width: 100%;
     height: 60px;
     font-size: 23px;
+}
+form .button:hover{
+    background-color: rgb(250, 250, 65);
+    color: #000000;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+/* Footer styles */
+
+
+.footer-content{
+    margin: 0px auto;
+    max-width: 1140px;
+    padding: 105px 400px 50px;
+    text-align: center;
+}
+.footer-content h1{
+    font-weight: 800;
+    font-size: 100px;
+    color: #4E47FF;
+    padding-bottom: 10px;
+}
+.footer-content p{
+    font-weight: 500;
+    font-size: 17px;
+    color: #8987A1;
+    padding-bottom: 20px;
+}
+.footer-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-menu a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: #8987A1;
 }
