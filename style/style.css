@@ -241,18 +241,18 @@ form{
 }
 form label{
     font-weight: 700;
-    font-size: 19px;
+    font-size: 18px;
 }
 form input{
-    padding: 20px 0px 20px 30px;
+    padding: 20px 20px 20px 30px;
     font-size: 21px;
     margin: 12px 0px;
-    width: 95%;
+    width: 91%;
     border: 1px groove #D6DDED;
     border-radius: 10px;
 }
 form textarea{
-    padding: 20px 80px 20px 30px;
+    padding: 20px 20px 20px 30px;
     font-size: 21px;
     margin: 12px 0px;
     border: 1px groove #D6DDED;
